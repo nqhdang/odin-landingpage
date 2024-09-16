@@ -2,8 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: ; */
  }
- 
+
+/* Header */
  .header {
     padding: 16px;
     display: flex;
@@ -31,3 +33,35 @@
     font-size: 18px;
     color: #E5E7EB;
  }
+
+/* Hero */
+.hero {
+    background-color: #1F2937;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.content {
+    flex: 1;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.second-text {
+    font-size: 18px;
+    color: #E5E7EB; 
+}
+
+.image {
+    flex: auto;
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    text-align: center;
+}
