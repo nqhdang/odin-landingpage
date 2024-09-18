@@ -5,9 +5,13 @@
     /* font-family: ; */
  }
 
+ body {
+    
+ }
+
 /* Header */
  .header {
-    padding: 16px;
+    padding: 24px;
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
@@ -37,25 +41,27 @@
 /* Hero */
 .hero {
     background-color: #1F2937;
-    padding: 10px;
+    padding: 24px;
     display: flex;
-    gap: 20px;
-    align-items: center;
+    gap: 36px;
+    align-items: space-between;
 }
 
 .content {
-    flex: 1;
+    flex: 2;    
 }
 
 .main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    margin-bottom: 10px;
 }
 
 .second-text {
     font-size: 18px;
     color: #E5E7EB; 
+    margin-bottom: 10px;
 }
 
 .image {
@@ -63,5 +69,17 @@
     height: 200px;
     width: 300px;
     background-color: gray;
-    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
 }
