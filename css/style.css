@@ -83,3 +83,30 @@ button {
     border-radius: 10px;
     border-style: none;
 }
+
+/* Information Part */
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infor-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.infor-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    border: #3882f6 3px solid;
+    flex: auto;
+    height: 100px;
+    width: 100px;
+}
