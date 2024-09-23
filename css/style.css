@@ -102,13 +102,12 @@ button {
 
 .info-content {
     display: flex;
-    /* flex: 1; */
+    flex: 0 180px;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    max-width: 180px;
 }
 
 .square {
