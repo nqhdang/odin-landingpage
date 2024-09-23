@@ -85,28 +85,41 @@ button {
 }
 
 /* Information Part */
-.information {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.infor-header {
+.info-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    text-align: center;
+    margin: 20px;
 }
 
-.infor-content {
+.info-body {
     display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 30px;
+}
+
+.info-content {
+    display: flex;
+    /* flex: 1; */
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    max-width: 180px;
 }
 
 .square {
     border: #3882f6 3px solid;
-    flex: auto;
-    height: 100px;
-    width: 100px;
+    border-radius: 15px;
+    height: 180px;
+    width: 180px;
+}
+
+.text {
+    text-align: center;
+    font-size: 20px;
+    color: gray;
 }
