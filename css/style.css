@@ -79,7 +79,8 @@ button {
     background-color: #3882f6;
     color: white;
     font-weight: 700;
-    padding: 10px 20px;
+    font-size: 18px;
+    padding: 10px 40px;
     border-radius: 10px;
     border-style: none;
 }
@@ -139,10 +140,43 @@ button {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    font-weight: lighter;
 }
 
 .author {
     text-align: right;
     font-style: normal;
     font-weight: 700;
+}
+
+/* Action Part */
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.action-body {
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px 100px;
+    gap: 150px;
+    border-radius: 15px;
+}
+
+.action-text,
+.action-header {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.action-header {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.action-button {
+    border-color: #F9FAF8;
+    border-style: solid;
 }
