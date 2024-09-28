@@ -180,3 +180,18 @@ button {
     border-color: #F9FAF8;
     border-style: solid;
 }
+
+/* Footer Part */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.footer-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
