@@ -85,12 +85,16 @@ button {
 }
 
 /* Information Part */
+.information {
+    padding-bottom: 100px;
+}
+
 .info-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
-    margin: 20px;
+    margin: 50px;
 }
 
 .info-body {
@@ -121,4 +125,24 @@ button {
     text-align: center;
     font-size: 20px;
     color: gray;
+}
+
+/* Quote Part */
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+    
+}
+
+.quote-text,
+.author {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    text-align: right;
+    font-style: normal;
+    font-weight: 700;
 }
